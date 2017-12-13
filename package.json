@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "export meteor run --settings settings.json --port 3000",
+    "start": "meteor run --settings settings.json --port 3000",
     "mongo": "echo 'mongo --ssl --sslAllowInvalidCertificates [uri]:[port]/[database] -u [username -p[password] is what you need here'",
     "changelog": "./node_modules/.bin/changelog",
     "lint": "eslint ."
