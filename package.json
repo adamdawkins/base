@@ -1,7 +1,7 @@
 {
   "name": "dragon-drop-base",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "start": "meteor run --settings settings.json --port 3000",
     "mongo": "echo 'mongo --ssl --sslAllowInvalidCertificates [uri]:[port]/[database] -u [username -p[password] is what you need here'",
