@@ -1,3 +1,11 @@
+## [Version 0.1.1](https://github.com/adamdawkins/base/releases/tag/v0.1.1) (2018-3-2)
+
+### Bug fixes
+
+- Update Meteor Version: [`f69a836`](https://github.com/adamdawkins/base/commit/f69a836)
+
+[...full changes](https://github.com/adamdawkins/base/compare/v0.1.0...v0.1.1)
+
 ## [Version 0.1.0](https://github.com/adamdawkins/base/releases/tag/v0.1.0) (2017-12-13)
 
 ### Breaking changes
