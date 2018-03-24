@@ -1,4 +1,5 @@
 import React from 'react'
+import { path } from 'ramda'
 import { mapProps, branch, renderComponent } from 'recompose'
 
 import Loader from './components/Loader/Loader'
@@ -29,3 +30,8 @@ export const logProps = (name, showLog = true) => mapProps((props) => {
 
 	return props
 })
+
+// try to get a param from the React router
+//	  param :: String -> Object -> Optional String (String or undefined)
+export const param = (name, props) => R.path(['match', 'params', name], props)
+
