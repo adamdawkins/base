@@ -3,26 +3,26 @@
 	"settings": {
 		"import/core-modules": [
 			"meteor",
-			"meteor/mongo",
-			"meteor/meteor",
-			"meteor/promise",
 			"meteor/apollo",
+			"meteor/meteor",
+			"meteor/mongo",
+			"meteor/promise",
 			"meteor/react-meteor-data",
 			"meteor/session"
 		],
 	},
   "rules": {
     "indent": ["error", "tab"],
-		"no-underscore-dangle": 0,
-    "no-tabs": 0,
-		"max-len": "off",
-    "semi": 0,
 		"import/prefer-default-export": 0,
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
+		"max-len": "off",
+    "no-tabs": 0,
+		"no-underscore-dangle": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
 		"react/jsx-indent": [2, "tab"],
     "react/jsx-indent-props": [2, "tab"]
+    "semi": 0,
   },
 	"env": {
 		"browser": true,
