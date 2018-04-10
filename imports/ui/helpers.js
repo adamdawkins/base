@@ -33,5 +33,5 @@ export const logProps = (name, showLog = true) => mapProps((props) => {
 
 // try to get a param from the React router
 //	  param :: String -> Object -> Optional String (String or undefined)
-export const param = (name, props) => R.path(['match', 'params', name], props)
+export const param = (name, props) => path(['match', 'params', name], props)
 
