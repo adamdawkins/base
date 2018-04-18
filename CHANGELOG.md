@@ -1,3 +1,22 @@
+## [Version 0.1.2](https://github.com/adamdawkins/base/releases/tag/v0.1.2) (2018-4-18)
+
+### New features
+
+- Add autoresolver: [`3da734e`](https://github.com/adamdawkins/base/commit/3da734e)
+- Add utils: [`3375a12`](https://github.com/adamdawkins/base/commit/3375a12)
+
+### Bug fixes
+
+- Update the title to something to change: [`9ce85c5`](https://github.com/adamdawkins/base/commit/9ce85c5)
+- Remove no-underscore-dangle lint rule (we use _id a lot): [`46a9086`](https://github.com/adamdawkins/base/commit/46a9086)
+- Add `param` helper: [`acf65a1`](https://github.com/adamdawkins/base/commit/acf65a1)
+- Disable the `max-len` eslint rule: [`ab77481`](https://github.com/adamdawkins/base/commit/ab77481)
+- Fix call to `path` function in ui helpers: [`e58f466`](https://github.com/adamdawkins/base/commit/e58f466)
+- 🔧 Fix JSON error in .eslintrc: [`c051953`](https://github.com/adamdawkins/base/commit/c051953)
+- 🍫 Add meteor/http to eslint core modules: [`8894ba3`](https://github.com/adamdawkins/base/commit/8894ba3)
+
+[...full changes](https://github.com/adamdawkins/base/compare/v0.1.1...v0.1.2)
+
 ## [Version 0.1.1](https://github.com/adamdawkins/base/releases/tag/v0.1.1) (2018-3-2)
 
 ### Bug fixes
