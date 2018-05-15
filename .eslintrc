@@ -9,7 +9,8 @@
 			"meteor/mongo",
 			"meteor/promise",
 			"meteor/react-meteor-data",
-			"meteor/session"
+			"meteor/session",
+			"meteor/webapp"
 		],
 	},
   "rules": {
