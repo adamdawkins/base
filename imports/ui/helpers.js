@@ -11,7 +11,7 @@ import Loader from './components/Loader/Loader'
  * within components themselves.
  */
 export const withLoading = branch(
-	props => props.data.loading,
+	(props) => props.data.loading,
 	renderComponent(() => <Loader />),
 )
 

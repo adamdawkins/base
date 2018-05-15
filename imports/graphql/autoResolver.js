@@ -3,7 +3,7 @@ import { capitalize, pluralize, merge } from '../utils'
 import * as Collections from '../api'
 
 // collectionForType :: String -> Maybe(Mongo.Collection)
-const collectionForType = type => Collections[pluralize(capitalize(type))]
+const collectionForType = (type) => Collections[pluralize(capitalize(type))]
 
 // Re-usable basic Update mutation resolver
 export const updateMutation = (typeName) => {
@@ -19,10 +19,10 @@ export const updateMutation = (typeName) => {
 }
 
 // A simple delete mutation that takes an id arg and delets from the collection
-export const deleteMutation = typeName => (root, { id }) => collectionForType(typeName).remove(id)
+export const deleteMutation = (typeName) => (root, { id }) => collectionForType(typeName).remove(id)
 
 
-export const createMutation = typeName => (root, args) => {
+export const createMutation = (typeName) => (root, args) => {
 	const Collection = collectionForType(typeName)
 	const doc = args[typeName.toLowerCase()]
 	const id = Collection.insert(doc)
@@ -52,7 +52,7 @@ export const listQuery = (typeName, queryCreator) => (root, args, context) => {
 	}
 	return collectionForType(typeName).find(query).fetch()
 }
-export const byIdQuery = typeName => (root, { id }) => collectionForType(typeName).findOne(id)
+export const byIdQuery = (typeName) => (root, { id }) => collectionForType(typeName).findOne(id)
 
 export const byQuery = (field, typeName) => (root, args) => {
 	const Collection = collectionForType(typeName)
