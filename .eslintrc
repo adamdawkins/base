@@ -11,7 +11,7 @@
 			"meteor/react-meteor-data",
 			"meteor/session",
 			"meteor/webapp"
-		],
+		]
 	},
   "rules": {
 		"arrow-parens": ["error", "always"],
