@@ -4,6 +4,7 @@
 		"import/core-modules": [
 			"meteor",
 			"meteor/apollo",
+			"meteor/check",
 			"meteor/http",
 			"meteor/meteor",
 			"meteor/mongo",
