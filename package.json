@@ -28,7 +28,7 @@
     "prop-types": "^15.6.0",
     "ramda": "^0.25.0",
     "react": "^16.4.0",
-    "react-apollo": "^1.4.16",
+    "react-apollo": "^2.1.4",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.2.2",
     "recompose": "^0.25.1"
