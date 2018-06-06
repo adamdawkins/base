@@ -1,3 +1,27 @@
+## [Version 1.0.0](https://github.com/adamdawkins/base/releases/tag/v1.0.0) (2018-6-6)
+
+### Breaking changes
+
+- ⚠️✅ Upgrade to Meteor 1.7.0.1: [`600d9ef`](https://github.com/adamdawkins/base/commit/600d9ef)
+- 🚨 Fix Vulnerabilities in npm packages: [`7a39aa3`](https://github.com/adamdawkins/base/commit/7a39aa3)
+
+### New features
+
+- ✅ Update Meteor Version: [`e40271a`](https://github.com/adamdawkins/base/commit/e40271a)
+- ✅Update the title to something to change: [`72ba8fe`](https://github.com/adamdawkins/base/commit/72ba8fe)
+
+### Bug fixes
+
+- 🐞 Fix npm start: [`621adb2`](https://github.com/adamdawkins/base/commit/621adb2)
+- 🍫 Remove no-underscore-dangle lint rule (we use _id a lot): [`c41f181`](https://github.com/adamdawkins/base/commit/c41f181)
+- ✅ Add `param` helper: [`0a6c032`](https://github.com/adamdawkins/base/commit/0a6c032)
+- ✅ Add autoresolver: [`2bac7e8`](https://github.com/adamdawkins/base/commit/2bac7e8)
+- ✅ Add utils: [`f68e085`](https://github.com/adamdawkins/base/commit/f68e085)
+- 🐞 Fix call to `path` function in ui helpers: [`35cce92`](https://github.com/adamdawkins/base/commit/35cce92)
+- 🐞 Fix JSON error in .eslintrc: [`c8d64e7`](https://github.com/adamdawkins/base/commit/c8d64e7)
+- ⚠️ 🐞 Fix to use Apollo 2.0: [`f7fc7e8`](https://github.com/adamdawkins/base/commit/f7fc7e8)
+- ✅ Update graphql to v0.13.2 and associated packages: [`f2aa353`](https://github.com/adamdawkins/base/commit/f2aa353)
+- ✅ Update React to 16.4.0, and associated packages: [`aeacd6b`](https://github.com/adamdawkins/base/commit/aeacd6b)
 ## [Version 0.1.2](https://github.com/adamdawkins/base/releases/tag/v0.1.2) (2018-4-18)
 
 ### New features
