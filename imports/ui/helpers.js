@@ -1,5 +1,5 @@
 import React from 'react'
-import { path } from 'ramda'
+import { fromPairs, path } from 'ramda'
 import { mapProps, branch, renderComponent } from 'recompose'
 
 import Loader from './components/Loader/Loader'
@@ -34,4 +34,11 @@ export const logProps = (name, showLog = true) => mapProps((props) => {
 // try to get a param from the React router
 //	  param :: String -> Object -> Optional String (String or undefined)
 export const param = (name, props) => path(['match', 'params', name], props)
+
+//		formData :: DOMElement -> Object
+export const formData = (form) => {
+	const fields = Array.from(form.querySelectorAll('[name]'))
+
+	return fromPairs(fields.map(({ name, value }) => [name, value]))
+}
 
