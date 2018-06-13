@@ -1,3 +1,11 @@
+## [Version 1.0.1](https://github.com/adamdawkins/base/releases/tag/v1.0.1) (2018-6-13)
+
+### Bug fixes
+
+- 🔧 Add missing eslint config passage: [`9a8b7aa`](https://github.com/adamdawkins/base/commit/9a8b7aa)
+
+[...full changes](https://github.com/adamdawkins/base/compare/v1.0.0...v1.0.1)
+
 ## [Version 1.0.0](https://github.com/adamdawkins/base/releases/tag/v1.0.0) (2018-6-6)
 
 ### Breaking changes
