@@ -1,3 +1,11 @@
+## [Version 1.0.3](https://github.com/adamdawkins/base/releases/tag/v1.0.3) (2018-6-26)
+
+### Bug fixes
+
+- 🍫 Update eslint rules to please John Norris: [`5ce8e17`](https://github.com/adamdawkins/base/commit/5ce8e17)
+
+[...full changes](https://github.com/adamdawkins/base/compare/v1.0.2...v1.0.3)
+
 ## [Version 1.0.2](https://github.com/adamdawkins/base/releases/tag/v1.0.2) (2018-6-13)
 
 ### Bug fixes
