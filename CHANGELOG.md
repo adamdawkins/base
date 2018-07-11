@@ -1,3 +1,11 @@
+## [Version 1.0.4](https://github.com/adamdawkins/base/releases/tag/v1.0.4) (2018-7-11)
+
+### Bug fixes
+
+- ♻️ Re-factor formData helper: [`3422327`](https://github.com/adamdawkins/base/commit/3422327)
+
+[...full changes](https://github.com/adamdawkins/base/compare/v1.0.3...v1.0.4)
+
 ## [Version 1.0.3](https://github.com/adamdawkins/base/releases/tag/v1.0.3) (2018-6-26)
 
 ### Bug fixes
