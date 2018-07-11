@@ -1,5 +1,5 @@
 import React from 'react'
-import { fromPairs, path } from 'ramda'
+import { path } from 'ramda'
 import { mapProps, branch, renderComponent } from 'recompose'
 
 import Loader from './components/Loader/Loader'
@@ -37,8 +37,9 @@ export const param = (name, props) => path(['match', 'params', name], props)
 
 //		formData :: DOMElement -> Object
 export const formData = (form) => {
-	const fields = Array.from(form.querySelectorAll('[name]'))
+	const data = {}
+	Array.from(form.querySelectorAll('[name]')).forEach(({ name, value }) => data[name] = value)
 
-	return fromPairs(fields.map(({ name, value }) => [name, value]))
+	return data
 }
 
